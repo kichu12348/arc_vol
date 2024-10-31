@@ -1,0 +1,20 @@
+{
+  "name": "arc_vol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --env-file=.env index.js"
+  },
+  "keywords": [],
+  "author": "me",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
